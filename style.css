@@ -1,0 +1,295 @@
+
+  .page {
+    width: 1600px;
+  }
+
+  .company_slide {
+    background: url("./img/Background.png") 50% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+
+  .company_content {
+    display: flex;
+    flex-direction: column;
+    min-width: 1201px;
+    padding-top: 40px;
+    padding-bottom: 120px;
+  }
+  .company_head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+  }
+  .company_logo {
+    width: 68px;
+    height: 68px;
+    background: url("./img/Logo.png") 50% / cover no-repeat;
+    margin-right: 18px;
+  }
+  .company_contacts {
+    display: flex;
+    flex-direction: column;
+    padding-top: 9px;
+  }
+  .company_phone {
+    margin: 0;
+    font: 400 24px Roboto, sans-serif;
+    color: white;
+  }
+  .company_call {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    font: 400 16px Roboto, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  .company_text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 992px;
+  }
+  .company_title {
+    margin: 0;
+    font: 900 52px Roboto, sans-serif;
+    color: rgba(255, 255, 255, 0.86);
+    text-align: center;
+  }
+  .company_subtext {
+    font: 400 22px Roboto, sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    margin-bottom: 90px;
+  }
+  .company_more {
+    text-decoration: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 48px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #15a9cb;
+}
+  .about_slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f9f9f9;
+  }
+  .about_content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .about_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_title {
+    margin: 0;
+    font: 700 35px Roboto, sans-serif;
+    color: #383a4c;
+    margin-bottom: 25px;
+  }
+  .about_us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 189px;
+    margin-bottom: 36px;
+  }
+  .about_line {
+    width: 43px;
+    height: 2px;
+    background: #383a4c;
+  }
+  .about_us-text {
+    margin: 0;
+    font: 500 22px Roboto, sans-serif;
+  }
+  .about_main-text {
+    max-width: 726px;
+    margin: 0;
+    font: 400 18px Roboto, sans-serif;
+    color: #383a4c;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .about_container {
+    display: flex;
+    gap: 50px;
+  }
+  .about_blu-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 198px;
+  }
+  .about_number {
+    border-radius: 100%;
+    width: 122px;
+    height: 122px;
+    font-size: 57px;
+    color: #fff;
+    cursor: pointer;
+    background: #15a9cb;
+    margin: 0 auto;
+}
+  .about_subtext {
+    font: 500 20px Roboto, sans-serif;
+    color: #383a4c;
+    text-align: center;
+  }
+  .questions_slide {
+    background: url("./img/Background2.png") 50% / cover no-repeat;
+  }
+  .questions_content {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .questions_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .questions_title {
+    margin: 0;
+    font: 700 35px Roboto, sans-serif;
+    color: white;
+  }
+  .questions_text {
+    margin-bottom: 50px;
+    font: 500 22px Roboto, sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .questions_item {
+    display: flex;
+    margin-bottom: 21px;
+    width: 423px;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 22px;
+    background-color: transparent;
+    border: 2px solid #bdbdbd;
+    border-radius: 50px;
+  }
+  .questions_item::placeholder {
+    color: #bdbdbd;
+    opacity: 0.4;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: start;
+  }
+  .input-field-style {
+    box-sizing: border-box;
+    width: 100%;
+    font: 400 22px Roboto, sans-serif;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .input-style-d32d2ef1::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .futuristic-input-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 47px;
+    padding-left: 26.5px;
+    font: 400 22px Roboto, sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    border: 1.5px solid white;
+    border-radius: 50px;
+  }
+  .questions_call {
+    text-decoration: none;
+    border-radius: 50px;
+    width: 218px;
+    height: 48px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #15a9cb;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .call-to-action-text-style {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 500 20px Roboto, sans-serif;
+    color: white;
+  }
+  .questions_text-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .questions_subtext {
+    display: flex;
+    justify-content: center;
+    font: 400 20px Roboto, sans-serif;
+    color: white;
+    margin-bottom: 45px;
+  }
+  .questions_agree {
+    font: 400 20px Roboto, sans-serif;
+    color: #4a76a8;
+  }
+  .footer_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2f324b;
+  }
+  
+  .footer_content {
+    display: flex;
+    gap: 300px;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .footer_container1 {
+    display: flex;
+    align-items: center;
+  }
+  .footer_rights {
+    font: 500 12px Roboto, sans-serif;
+    color: white;
+    text-align: left;
+  }
+
+  .footer_creator {
+    font: 500 12px Roboto, sans-serif;
+    color: white;
+  }
+  .footer_container2 {
+    display: flex;
+    flex-direction: column;
+  }
