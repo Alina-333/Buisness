@@ -3,7 +3,7 @@
     width: 1600px;
   }
 
-  .company_slide {
+  .company {
     background: url("./img/Background.png") 50% / cover no-repeat;
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@
   .company_content {
     display: flex;
     flex-direction: column;
-    min-width: 1201px;
+    width: 1200px;
     padding-top: 40px;
     padding-bottom: 120px;
   }
@@ -25,7 +25,7 @@
   .company_logo {
     width: 68px;
     height: 68px;
-    background: url("./img/Logo.png") 50% / cover no-repeat;
+    background: url("./img/Logo.svg") 50% / cover no-repeat;
     margin-right: 18px;
   }
   .company_contacts {
@@ -79,7 +79,7 @@
     cursor: pointer;
     background: #15a9cb;
 }
-  .about_slide {
+  .about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,7 +155,7 @@
     color: #383a4c;
     text-align: center;
   }
-  .questions_slide {
+  .questions {
     background: url("./img/Background2.png") 50% / cover no-repeat;
   }
   .questions_content {
@@ -191,7 +191,24 @@
     border: 2px solid #bdbdbd;
     border-radius: 50px;
   }
+  .questions_item3 {
+    display: flex;
+    width: 423px;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 22px;
+    background-color: transparent;
+    border: 2px solid #bdbdbd;
+    border-radius: 50px;
+  }
   .questions_item::placeholder {
+    color: #bdbdbd;
+    opacity: 0.4;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: start;
+  }
+  .questions_item3::placeholder {
     color: #bdbdbd;
     opacity: 0.4;
     font-weight: 400;
@@ -280,11 +297,11 @@
     align-items: center;
   }
   .footer_rights {
+    white-space: pre-line;
     font: 500 12px Roboto, sans-serif;
     color: white;
     text-align: left;
   }
-
   .footer_creator {
     font: 500 12px Roboto, sans-serif;
     color: white;
