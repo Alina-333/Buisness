@@ -9,8 +9,7 @@
     flex-direction: column;
     align-items: center
   }
-
-  .company_content {
+  .company_conteiner {
     display: flex;
     flex-direction: column;
     width: 1200px;
