@@ -1,10 +1,14 @@
 
   .page {
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    margin: auto;
   }
 
   .company {
     padding-top: 40px;
+    padding-bottom: 26px;
     background: url("./img/Background.png") 50% / cover no-repeat;
     display: flex;
     flex-direction: column;
@@ -21,61 +25,72 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 120px;
-    width: 1200px;
+    padding-top: 9px;
+    width: 1455px;
   }
   .company_logo {
-    width: 68px;
-    height: 68px;
-    background: url("./img/Logo.svg") 50% / cover no-repeat;
+    width: 80px;
+    height: 80px;
+    padding-left: 8px;
   }
   .company_contacts {
     display: flex;
     flex-direction: column;
     padding-top: 9px;
+    width: 208px 53px;
   }
   .company_phone {
     margin: 0;
-    font: 400 24px Roboto, sans-serif;
+    font: 400 30px "Roboto", sans-serif;
     color: white;
   }
   .company_call {
     display: block;
     display: flex;
     flex-direction: column;
-    font: 400 16px Roboto, sans-serif;
+    font: 400 18px "Roboto", sans-serif;
     color: white;
     text-align: center;
+    padding-top: 5px;
+    padding-right: 10px;
   }
   .company_text {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     align-items: center;
-    max-width: 992px;
+    max-width: 1200px;
     padding-bottom: 120px;
+    padding-top: 40px;
   }
   .company_title {
-    width: 990px;
+    position: relative;
+    bottom: 13px;
     white-space: pre-line;
-    margin: 0;
-    font: 900 52px Roboto, sans-serif;
+    font: 790 58px "Roboto", sans-serif;
     color: rgba(255, 255, 255, 0.86);
     text-align: center;
-    margin-bottom: 35px;
+    padding-right: 40px;
+    margin-bottom: 20px;
   }
   .company_subtext {
+    white-space: pre-line;
     margin: 0;
-    font: 400 22px Roboto, sans-serif;
+    font-weight: 350px;
+    font-size: 27px;
+    font-family: "Roboto", sans-serif;
     color: rgba(255, 255, 255, 0.75);
     text-align: center;
-    margin-bottom: 90px;
+    padding-right: 15px;
+    padding-top: 25px;
+    margin-bottom: 115px;
   }
   .company_more {
     text-decoration: none;
     border-radius: 50px;
-    width: 200px;
-    height: 48px;
-    font-size: 20px;
+    width: 240px;
+    height: 55px;
+    font-size: 25px;
     font-family: "Roboto", sans-serif;
     color: #fff;
     display: flex;
@@ -89,6 +104,9 @@
     flex-direction: column;
     align-items: center;
     background: #f9f9f9;
+    width: 1920px;
+    height: 715px;
+
   }
   .about_content {
     display: flex;
@@ -108,9 +126,10 @@
   }
   .about_title {
     margin: 0;
-    font: 700 35px Roboto, sans-serif;
+    font: 800 35px "Roboto", sans-serif;
     color: #383a4c;
     margin-bottom: 25px;
+    padding-top: 15px;
   }
   .about_us {
     display: flex;
@@ -120,43 +139,67 @@
     margin-bottom: 36px;
   }
   .about_line {
-    width: 43px;
+    width: 47px;
     height: 2px;
     background: #383a4c;
   }
   .about_us-text {
     margin: 0;
-    font: 500 22px Roboto, sans-serif;
+    font: 560 29px "Roboto", sans-serif;
+    padding-top: 5px;
+    padding-left: 26px;
+    padding-right: 26px;
+    color: #383a4c;
   }
   .about_main-text {
-    max-width: 726px;
+    white-space: pre-line;
+    width: 900px;
     margin: 0;
-    font: 400 18px Roboto, sans-serif;
+    font: 400 22px "Roboto", sans-serif;
     color: #383a4c;
     text-align: center;
     margin-bottom: 70px;
+    padding-top: 8px;
   }
   .about_container {
     display: flex;
-    gap: 50px;
+    gap: 100px;
+    width: 1200px;
+    justify-content: space-between;
   }
-  .about_blu-container {
+  .about_blu-container1 {
     display: flex;
     flex-direction: column;
-    max-width: 198px;
+    max-width: 220px;
+  }
+  .about_blu-container2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 220px;
+  }
+  .about_blu-container3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 220px;
+  }
+  .about_blu-container4 {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
   }
   .about_number {
     border-radius: 100%;
-    width: 122px;
-    height: 122px;
-    font-size: 57px;
+    width: 145px;
+    height: 145px;
+    font: 500 57px "Roboto", sans-serif;
     color: #fff;
     cursor: pointer;
     background: #15a9cb;
+    border-color: #15a9cb;
     margin: 0 auto;
 }
   .about_subtext {
-    font: 500 20px Roboto, sans-serif;
+    font: 600 25px "Roboto", sans-serif;
     color: #383a4c;
     text-align: center;
   }
@@ -177,19 +220,26 @@
   }
   .questions_title {
     margin: 0;
-    font: 700 35px Roboto, sans-serif;
+    font: 550 40px "Roboto", sans-serif;
+    padding-top: 15px;
+    padding-right: 20px;
     color: white;
   }
   .questions_text {
-    margin-bottom: 50px;
-    font: 500 22px Roboto, sans-serif;
+    margin-bottom: 38px;
+    font: 500 27px "Roboto", sans-serif;
     color: rgba(255, 255, 255, 0.8);
   }
+.questions_form {
+  padding-top: 22px;
+  padding-right: 30px;
+  width: 470px;
+}
   .questions_item {
     display: flex;
     margin-bottom: 21px;
-    width: 423px;
-    height: calc(2.25rem + 2px);
+    width: 470px;
+    height: calc(2.25rem + 4px);
     padding: 0.375rem 0.75rem;
     font-size: 22px;
     background-color: transparent;
@@ -198,7 +248,7 @@
   }
   .questions_item3 {
     display: flex;
-    width: 423px;
+    width: 470px;
     height: calc(2.25rem + 2px);
     padding: 0.375rem 0.75rem;
     font-size: 22px;
@@ -209,21 +259,21 @@
   .questions_item::placeholder {
     color: #bdbdbd;
     opacity: 0.4;
-    font-weight: 400;
-    font-size: 22px;
+    font: 400 24px "Roboto", sans-serif;
+    padding-left: 16px;
     text-align: start;
   }
   .questions_item3::placeholder {
     color: #bdbdbd;
     opacity: 0.4;
-    font-weight: 400;
-    font-size: 22px;
+    font: 400 24px "Roboto", sans-serif;
+    padding-left: 16px;
     text-align: start;
   }
   .input-field-style {
     box-sizing: border-box;
     width: 100%;
-    font: 400 22px Roboto, sans-serif;
+    font: 400 22px "Roboto", sans-serif;
     background: transparent;
     border: none;
     outline: none;
@@ -240,17 +290,19 @@
     width: 100%;
     height: 47px;
     padding-left: 26.5px;
-    font: 400 22px Roboto, sans-serif;
+    font: 400 22px "Roboto", sans-serif;
     color: rgba(255, 255, 255, 0.5);
     border: 1.5px solid white;
     border-radius: 50px;
   }
   .questions_call {
+    position: relative;
+    bottom: 55px;
     text-decoration: none;
     border-radius: 50px;
-    width: 218px;
-    height: 48px;
-    font-size: 20px;
+    width: 262px;
+    height: 57px;
+    font-size: 23px;
     font-family: "Roboto", sans-serif;
     color: #fff;
     display: flex;
@@ -265,7 +317,7 @@
     flex: 0 0 auto;
     padding: 0;
     margin: 0;
-    font: 500 20px Roboto, sans-serif;
+    font: 500 20px "Roboto", sans-serif;
     color: white;
   }
   .questions_text-container {
@@ -273,15 +325,17 @@
     flex-direction: column;
   }
   .questions_subtext {
+    position: relative;
+    bottom: 72px;
+    letter-spacing: 2px;
     display: flex;
     justify-content: center;
-    font: 400 20px Roboto, sans-serif;
+    font: 400 21px "Roboto", sans-serif;
     color: white;
-    margin-bottom: 45px;
-    margin-top: 0;
+
   }
   .questions_agree {
-    font: 400 20px Roboto, sans-serif;
+    font: 400 20px "Roboto", sans-serif;
     color: #4a76a8;
   }
   .footer_section {
@@ -289,30 +343,45 @@
     flex-direction: column;
     align-items: center;
     background: #2f324b;
+    height: 180px;
   }
-  
   .footer_content {
     display: flex;
     gap: 300px;
     align-items: center;
+    width: 1450px;
+    height: 100px;
     padding-top: 45px;
-    padding-bottom: 45px;
+    padding-bottom: 16px;
   }
   .footer_container1 {
     display: flex;
     align-items: center;
+    height: 100px;
+    position: relative;
+    bottom: 10px;
+    right: 7px;
   }
   .footer_rights {
+    position: relative;
+    padding-left: 25px;
     white-space: pre-line;
-    font: 500 12px Roboto, sans-serif;
+    font: 500 14px "Roboto", sans-serif;
     color: white;
     text-align: left;
   }
   .footer_creator {
-    font: 500 12px Roboto, sans-serif;
+    font: 500 13px "Roboto", sans-serif;
     color: white;
+    position: relative;
+    left: 65px ;
+    bottom: 10px;
+    letter-spacing: 1px;
   }
   .footer_container2 {
     display: flex;
     flex-direction: column;
+    position: relative;
+    left: 127px;
+    bottom: 10px;
   }
