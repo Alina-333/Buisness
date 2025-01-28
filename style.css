@@ -7,7 +7,6 @@
   }
 
   .company {
-    padding-top: 40px;
     padding-bottom: 26px;
     background: url("./img/Background.png") 50% / cover no-repeat;
     display: flex;
@@ -24,8 +23,8 @@
   .company_head {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 120px;
-    padding-top: 9px;
+    margin-bottom: 75px;
+    padding-top: 46px;
     width: 1455px;
   }
   .company_logo {
@@ -71,7 +70,10 @@
     color: rgba(255, 255, 255, 0.86);
     text-align: center;
     padding-right: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 69px;
+    position: relative;
+    top: 34px;
+    margin-top: 0;
   }
   .company_subtext {
     white-space: pre-line;
@@ -84,6 +86,7 @@
     padding-right: 15px;
     padding-top: 25px;
     margin-bottom: 115px;
+    
   }
   .company_more {
     text-decoration: none;
@@ -112,7 +115,6 @@
     display: flex;
     flex-direction: column;
     padding-top: 70px;
-    padding-bottom: 70px;
   }
   .about_text {
     display: flex;
@@ -166,6 +168,9 @@
     gap: 100px;
     width: 1200px;
     justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
   }
   .about_blu-container1 {
     display: flex;
@@ -202,6 +207,9 @@
     font: 600 25px "Roboto", sans-serif;
     color: #383a4c;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
   }
   .questions {
     background: url("./img/Background2.png") 50% / cover no-repeat;
@@ -210,8 +218,8 @@
     display: flex;
     flex-direction: column;
     gap: 49px;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 100px;
+    padding-bottom: 60px;
   }
   .questions_container {
     display: flex;
@@ -224,16 +232,17 @@
     padding-top: 15px;
     padding-right: 20px;
     color: white;
+    margin-bottom: 20px;
   }
   .questions_text {
     margin-bottom: 38px;
     font: 500 27px "Roboto", sans-serif;
     color: rgba(255, 255, 255, 0.8);
+    margin-top: 0;
   }
 .questions_form {
-  padding-top: 22px;
-  padding-right: 30px;
-  width: 470px;
+  position: relative;
+
 }
   .questions_item {
     display: flex;
@@ -297,7 +306,7 @@
   }
   .questions_call {
     position: relative;
-    bottom: 55px;
+    bottom: 45px;
     text-decoration: none;
     border-radius: 50px;
     width: 262px;
@@ -310,6 +319,7 @@
     align-items: center;
     cursor: pointer;
     background: #15a9cb;
+    background-color: #15a9cb;
     margin: 0 auto;
     margin-bottom: 60px;
   }
@@ -326,7 +336,7 @@
   }
   .questions_subtext {
     position: relative;
-    bottom: 72px;
+    bottom: 60px;
     letter-spacing: 2px;
     display: flex;
     justify-content: center;
@@ -343,7 +353,7 @@
     flex-direction: column;
     align-items: center;
     background: #2f324b;
-    height: 180px;
+    height: 190px;
   }
   .footer_content {
     display: flex;
@@ -351,7 +361,7 @@
     align-items: center;
     width: 1450px;
     height: 100px;
-    padding-top: 45px;
+    padding-top: 55px;
     padding-bottom: 16px;
   }
   .footer_container1 {
@@ -377,6 +387,7 @@
     left: 65px ;
     bottom: 10px;
     letter-spacing: 1px;
+    margin-top: 0;
   }
   .footer_container2 {
     display: flex;
